@@ -4,7 +4,7 @@
   height: 300px;
   border-radius: 5px;
   box-shadow: 0 2px 30px rgba(black, .2);
-  background: lighten(#005ecb, 10%);
+  background: lighten(#05922c, 10%);
   position: absolute;
   overflow: hidden;
   transform: translate3d(0, 0, 0);
@@ -24,7 +24,7 @@
   position: absolute;
   top: 3%;
   left: 50%;
-  background: #0af;
+  background: rgb(9, 145, 86);
   width: 500px;
   height: 500px;
   margin-left: 10px;
@@ -41,7 +41,7 @@
 .wave.-two {
   animation: drift 7000ms infinite linear;
   opacity: .1;
-  background: #448aff;
+  background: #adc3b7;
 }
 
 .box:after {
@@ -101,7 +101,7 @@ p.lead {
     display: inline-block;
     height: 3.5rem;
     width: 3.5rem;
-    background-color: #0af;
+    background-color: rgb(11, 128, 56);
     color: #fff!important;
     border-radius: 100%;
     text-align: center;
@@ -203,16 +203,16 @@ section.resume-section .resume-item .resume-date {
     padding-bottom: 3rem!important;
 }
 }.bg-primary {
-    background-image: linear-gradient(to left, #0af, transparent 95%)!important;
-    -moz-box-shadow: 4px 4px 7px rgba(0,170,255,.5);
-	-webkit-box-shadow: 4px 4px 7px rgba(0,170,255,.5);
-	box-shadow: 4px 4px 7px rgba(0,170,255,.5);
+    background-image: linear-gradient(to left, rgb(164,177,160), transparent 95%)!important;
+    -moz-box-shadow: 4px 4px 7px rgba(172,186,161, 0.5);
+	-webkit-box-shadow: 4px 4px 7px rgba(178,193,162,.5);
+	box-shadow: 4px 4px 7px rgba(172,186,161);
 }
 .text-primary {
-    color: #448aff!important;
+    color: #11631e!important;
 }
 a {
-    color: #005ecb;
+    color: #15772f;
 }
 a:active, a:focus, a:hover {
     color: #83b9ff;
